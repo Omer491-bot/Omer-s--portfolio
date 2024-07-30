@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0 0 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(19, 19, 93);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.03rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+.leftSection div{
+    font-size: small;
+    color: gray;
+    margin: 23px 0;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.leftSection button{
+    padding: 50px 0;
+
+}
+.rightSection{
+    z-index: -1;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -10vh 0;
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.leftSection {
+    font-size: 3rem;
+
+}
+
+.leftSection div {
+    width: 111%;
+}
+
+/* .rightSection{
+    /* background-color: red; */
+.rightSection img {
+    width: 82%;
+    margin: 130px 0;
+}
+
+.purple {
+    color: rgb(170 107 288);
+}
+
+#element {
+    color: rgb(170 107 288);
+}
+.form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  }
+  
+  .form .title {
+    color: royalblue;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 80%;
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 80%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+    color: whites;
+}
+.footer >div{
+    width: 223px;
+}
+footer .footer-rights{
+
+align-items: center;
+color: gray;
+padding: 12px;
+}
+.footer-second ul  a{
+    color: white;
+    list-style: none;
+
+}
+.footer-third ul a{
+    color: white;
+    list-style: none;
+}
+.footer-fourth ul a{
+    color: white;
+    list-style: none;
+}
+footer{
+    background-color: #0e0e1a;
+}
+      
